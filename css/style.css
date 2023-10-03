@@ -1,0 +1,894 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 6865px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+   
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(197, 101, 130, 0.808);
+    overflow: auto;
+    position: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.img1{
+    width: 150px;
+    height: 60px;
+    margin-left: 100px;
+    float: left;
+}
+.list{
+    list-style: none;
+     float: right;
+     margin-right: 150px;
+    
+}
+.list li{
+    display:inline-block;
+    margin-left: 30px;
+   color: white;
+   font-size: 22px;
+   line-height: 50px;
+   
+}
+.list li a {
+    text-decoration: none;
+    color: white;
+    top: 10px;
+}
+.section1{
+    width: 100%;
+    height:100vh;
+    background-image: url(../photo/images\ \(3\).jfif ) ;
+    /* position: relative; */
+   
+}
+.overley{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+.content{
+    width: 60%;
+     position: absolute; 
+    background-color: rgba(0, 0, 0, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.title1{
+    font-size: 55px;
+    color: white;
+
+}
+.P1{
+    letter-spacing: 3PX;
+    color: rgb(204, 199, 199);
+    margin: 15px 0px;
+
+}
+.btnn{
+     width: 150px;
+    height: 50px; 
+    border-radius: 6px;
+    border: 0;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-right: 15px;
+    background-color: white;
+    color: black;
+    /* padding: 16px; */
+}
+
+.btnn2{
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+.btnn:hover{
+    opacity: 0.6;
+}
+.titlesc2{
+    text-align: center;
+    font-size: 40px;
+}
+.line{
+    width: 200px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgba(197, 101, 130, 0.808);
+    margin: auto;
+}
+.parentsc2{
+    overflow: auto;
+    
+}
+.div1sc2{
+    width: 250px;
+    height: 200px;
+    border: solid 3px gray;
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+    position: relative;
+
+
+   
+}
+.div2sc2{
+    width: 250px;
+    height: 200px;
+    border: solid 3px gray;
+    float: left;
+    margin: 0px 100px;
+    text-align: center;
+    position: relative;
+
+}
+.div3sc2{ 
+    width: 250px;
+    height: 200px;
+    border: solid 3px gray;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.imobile{
+    font-size: 60px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    
+}
+.psc2{
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+.p2sc2{
+    letter-spacing: 2px;
+    padding: 15px;
+}
+.igoogle{
+    font-size: 60px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+.imagic{
+    font-size: 60px;
+    color: black;
+    background-color: white;
+    padding: 15px;
+}
+
+.div1sc2::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+.div1sc2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.div2sc2::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+.div2sc2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.div3sc2::after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    opacity: 0;
+    transition: all 2s ease 0s;
+}
+.div3sc2:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+.parentsc3{
+    width: 100%;
+    height: 850px;
+    background-color: rgb(250, 248, 248);
+    text-align: center;
+}.line2{
+    width: 250px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgba(197, 101, 130, 0.808);
+    margin: auto;
+}
+.div1sc3{
+    width: 250px;
+    height: 300px;
+    background: url(../photo/images\ \(5\).jfif) no-repeat;
+    border: solid 3px grey;
+    float: left;
+    margin-left: 200px;
+    /* padding: 40px; */
+    position: relative;
+}
+ .div2sc3{
+    width: 250px;
+    height: 300px;
+    border: solid 3px grey;
+    float: left;
+    margin-left: 100px ;
+    background: url(../photo/download\ \(1\).jfif) no-repeat;
+    position: relative;
+    
+} 
+.div3sc3{
+    width: 250px;
+    height: 300px;
+    border: solid 3px grey;
+    float: left;
+    margin: 0px 100px;
+    background: url(../photo/download\ \(4\).jfif) no-repeat;
+    position: relative;
+}
+    .div4sc3{
+        width: 250px;
+        height: 300px;
+        border: solid 3px grey;
+        float: left;
+        margin:50px 50px 0px 200px;
+        background: url(../photo/images\ \(6\).jfif) no-repeat;
+        position: relative;
+    }
+        .div5sc3{
+            width: 250px;
+            height: 300px;
+            border: solid 3px grey;
+            float: left;
+            margin: 50px ;
+            background: url(../photo/download\ \(3\).jfif) no-repeat;
+            position: relative;
+
+        }
+            .div6sc3{
+                width: 250px;
+                height: 300px;
+                border: solid 3px grey;
+                float: left;
+                margin: 50px;
+                background: url(../photo//download\ \(5\).jfif) no-repeat;
+                position: relative;
+            }
+            
+         
+            .overley2{
+                width: 100%;
+                height: 100%;
+                visibility: hidden;
+                position: absolute;
+                
+
+            }
+              .di:hover .overley2{
+                visibility: visible;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                background-color: rgba(0, 0, 0, .5);
+                transition: 1s;
+              }  
+                .consc3{
+                    visibility: hidden;
+
+                }
+               
+                    .di:hover .consc3{
+                        visibility: visible;
+                        font-size: 18;
+                        margin-top: 50%;
+                        color: rgb(83, 17, 214);
+
+                    }
+                    .titlesc4{
+                        visibility: hidden;
+                    }
+                    .di:hover .titlesc4{
+                        visibility: visible;
+                        color: white;
+                    }
+                    .is{
+                        background-color: rgb(139, 139, 223);
+                        color: blue;
+                        font-size: 20px;
+                        padding: 10px;
+                        line-height: 10px;
+                    }
+                    .parentsc4{
+                        width: 100%;
+                        height: 650px;
+                        background-color: rgb(250, 248, 248);
+                        text-align: center;
+                        
+                
+                    }
+                    .line3{
+                        width: 200px;
+                        height: 5px;
+                        border-radius: 3px;
+                        background-color: rgba(197, 101, 130, 0.808);
+                        margin: auto;
+
+                    }
+                .div1sc4{
+                    width: 300px;
+                    height: 200px;
+                    border: solid gray 3px;
+                    border-radius: 5px;
+                    float: left;
+                    margin-left: 200px;
+                    position: relative;
+                }
+                .div2sc4{
+                    width: 300px;
+                    height: 200px;
+                    border: solid gray 3px;
+                    float: left;
+                    margin:0px 50px;
+                    position: relative;
+                }
+                .div3sc4{
+                    width: 300px;
+                    height: 200px;
+                    border: solid gray 3px;
+                    border-radius: 5px;
+                    float: left;
+                    margin-right:100px;
+                    position: relative;
+                }
+                .parent2sc4{
+                    margin-top: 20%;
+                    
+                }
+                .parentsc4 i{
+                    font-size: 30px;
+                    padding: 10px;
+                }
+                .div1sc4::after {
+                    position: absolute;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .div1sc4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .div2sc4::after {
+                    position: absolute;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .div2sc4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .div3sc4::after {
+                    position: absolute;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .div3sc4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .div4sc4::after {
+                    position: absolute;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .div4sc4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .div5sc4::after {
+                    position: absolute;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .div5sc4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .div6sc4::after {
+                    position: absolute;
+                    content: "";
+                    width: 0px;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .div6sc4:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .di2:hover .offer{
+                    color: rgba(197, 101, 130, 0.808);
+                    transition: 2s;
+                }
+                .parent5{
+                    text-align: center;
+                    width: 100%;
+                    height: 850px;
+                     
+                }
+                 .div1sc5{
+                    width: 500px;
+                    height: 650px;
+                    float: left;
+                   background-color: rgb(253, 251, 255);
+                   margin-left: 50px;
+                   padding: 20px;
+                   border: solid 3px grey;
+
+                 }
+                 .div2sc5{
+                    width: 500px;
+                    height: 600px; 
+                    float: left;
+                    margin-left: 100px;
+                 }
+                 .con2advise{
+                    letter-spacing: 2px;
+
+                 }
+
+                 .parent6{ 
+                    position: relative;
+                    height: 350px;
+                     background: url(../photo/holifrog-goo.jpg) ;
+                     background-size: cover;
+                     background-attachment: fixed;
+                   
+                    
+                    
+                 }
+                 .background1{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                  background-color:rgba(0, 0, 0, .5);
+
+                 }
+                 .consc6{
+                    width: 80%;
+                    margin: auto;
+                    /* background-color: blue; */
+                   margin-top: 10%; 
+                    text-align: center;
+                 }
+                 .sub{
+                    font-size: 50px;
+                    color: white;
+                 }
+                 .supcon{
+                    color: rgb(202, 201, 201);
+                    letter-spacing: 2px;
+                 }
+                .btn3{
+                    width: 80px;
+                    height: 40px;
+                    border-radius: 3px;
+                    background-color: rgb(255, 255, 255);
+                    color: black;
+
+                }
+                .partner7{
+                    width: 100%;
+                    height: 100vh;
+                }
+                .title{
+                    text-align: center;
+                }
+                .line{
+                    width: 100px; height: 5px;
+                margin: auto;
+                    background-color: rgb(27, 8, 46);
+                }
+                .table1{
+                    width: 300; height: 400;
+                    border: solid 3px rgb(27, 8, 46);
+                    float: left;
+                    margin-left: 100px;
+                    text-align: center;
+                    background: url(../photo/images\ \(13\).jfif) ;
+                     background-size: cover;
+                    position: relative;
+                }
+                .free{
+                    font-size: 40px;
+                    color:rgb(3, 3, 3);
+                    text-align: center;
+                    
+                }
+                .circle1{
+                    width: 100px;height: 100;
+                    border-radius: 50%;
+                    border: solid 3px rgb(27, 8, 46);
+                    margin: auto;
+                    text-align: center;
+                }
+                .price1{
+                    color: rgb(5, 5, 5);
+                    text-align: center;
+                    font-size: 25;
+                    padding: 10px;
+                }
+                .time1{
+                    color: rgb(3, 3, 3);
+                    text-align: center;
+                font-size: 20;
+                }
+                li{ 
+                    text-decoration:none;
+                    font-size: 20px;
+                    font-weight: bold;
+                    line-height: 30px;
+
+                }
+                
+                
+                button{
+                    width: 150 PX; height: 40PX;
+                    font-size: 15;
+                    border-radius: 3px;
+                    margin: auto;
+                    background-color: rgb(10, 10, 10);
+                    color: white;
+                    padding: 10px;
+                }
+                 .table2{
+                    width: 300; height: 400;
+                border: solid 3px rgb(27, 8, 46);
+                float: left; 
+                margin: 0px 100px;
+                text-align: center;
+                background: url(../photo/images\ \(13\).jfif) ;
+                background-size: cover;
+                position: relative;
+                }
+                .table3{
+                    width: 300px; height: 400px;
+                    border: solid 3px rgb(27, 8, 46);
+                    float: left;
+                    text-align: center;
+                background: url(../photo/images\ \(13\).jfif) ;
+                background-size: cover;
+                position: relative;
+                } 
+                .table1::after {
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .table1:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .table2::after {
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .table2:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .table3::after {
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .table3:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .parent8{ 
+                    position: relative;
+                    height: 350px;
+                     background: url(../photo/3522247c75fce0ac47f20f64c0455a22.jpeg) ;
+                     background-size: cover;
+                     background-attachment: fixed;
+                   
+                    
+                    
+                 }
+                 .background2{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                  background-color:rgba(0, 0, 0, .5);
+
+                 }
+                 .consc7{
+                    width: 350;
+                    height: 200;
+                     /* background-color: blue; */
+                margin:150px 200px;
+                margin-left: 250px;
+                    text-align: center;
+                    float: left;
+                    
+                 }
+                 .con2sc7{
+                    width: 350;
+                    height: 200; 
+                   margin: 150px 50px;
+                   margin-right: 100px;
+                    text-align: center;
+                    float: left;
+                    
+                 }
+                 .cir{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background-image: url(../photo/images\ \(7\).jfif);
+                    background-size: cover;
+                    display: inline-block;
+                 }
+                 .sp{
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #fff;
+                    padding: 10px;
+                 }
+                 .pp{
+                    color:white;
+                    padding: 10px;
+                 }
+                 .container{
+                    width: 80%;
+                    margin: auto;
+                 }
+                 .parent9{
+                   width: 100%;
+                   height: 100vh;
+                 }
+                 .hair{
+                    text-align: center;
+                 }
+                 .space{
+                    width: 200px;
+                    width: 50px;
+                    background-color: rgb(58, 28, 40);
+                    margin: auto;
+                 }
+
+                 .divsc8{
+                    float: left;
+                    background-color: blanchedalmond;
+                    width: 30%;
+                    padding: 14px 18px;
+                    text-align: center;
+                    position: relative;
+
+                 }
+                   .ww{
+                    margin: 0px 5%;
+                   }
+                   .hair-img{
+                    width: 90%;
+                    margin: auto;
+                    position: relative; 
+                    background-color: blue;
+                   
+                   }
+                   .hair-img img{
+                    width: 100%;
+                   
+                   }
+                   .hair-overley{
+                    position: absolute;
+                    top: 0px;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, .5);
+                   }
+                   .hair-overley a{
+                    display: block;
+                    width: 40px;
+                    height: 40px;
+                    background-color: rgb(159, 159, 252);
+                    color: #fff;
+                    font-size: 23px;
+                    margin-left: auto ;
+                   }
+                   .hair-overley a i{
+                    line-height: 40px;
+                   }
+                   .divsc8::after{
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: black;
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .divsc8:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .tips{
+                    text-align: center;
+                }
+                .line-tips{
+                    width: 200px;
+                    height: 10px;
+                    border-radius: 3px;
+                    background-color: rgb(167, 61, 114);
+                    margin: auto;
+                }
+                .parent10{
+                    width: 100%;
+                    height: 100vh;
+                   
+                
+                }
+                  .xx{
+                    margin: 0px 50px;
+                    float: left; 
+                 }
+                
+                .tips-div{
+                    width: 350px;
+                    height: 500px;
+                    float: left;
+                    text-align: center;
+                    position: relative;
+                }
+                 .n{
+                    margin-left: 100px;
+                    float: left; 
+                  
+                }
+                .tips-div::after{
+                    position: absolute;
+                    content: "";
+                    width: 100%;
+                    height: 0px;
+                    top: 0px;
+                    left: 0px;
+                    background-color: rgb(96, 25, 226);
+                    opacity: 0;
+                    transition: all 2s ease 0s;
+                }
+                .tips-div:hover::after{
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0.6;
+                }
+                .tips-info-p{
+                  letter-spacing: 3px;
+                }
+               .sc11{
+                width: 100%;
+                height: 300px;
+                background-color: rgb(167, 61, 114);
+                margin-top: 60%;
+                text-align: center;
+               }
+               .img-sc11{
+                text-align: center;
+               }
+                 .img-sc11 a i{
+                    font-size: 40px;
+                  color: rgb(60, 60, 165);
+                    background-color: #fff;
+
+                }
+               .img-sc111{
+                margin: auto;
+                display: block;
+                margin-top: 40%;
+               }
+
+    
